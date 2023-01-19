@@ -49,15 +49,15 @@ header h1{
     color:red;
 }
 
-.foto{
-    width: 100%;
-}
+
+
 .nomeCognome{
     display: inline-block;
+    font-weight: 900;
 }
 
-.profilePic{
-    height: 100%;
+.profilePic {
+    width: calc(100% / 3);
 }
 .col, .scheda, .info, .profilePic{
     float: left;
