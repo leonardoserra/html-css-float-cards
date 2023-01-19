@@ -21,8 +21,13 @@ body {
 header{
     text-align: center;
 }
-header h1{
+#title{
+    padding: 20px 0px;
     color:rgb(229, 49, 112);
+}
+
+header p{
+    padding-bottom:20px ;
 }
 
 /* creo regola di clearfix */
@@ -54,13 +59,12 @@ header h1{
 }
 
 
-
 .nomeCognome{
     font-weight: 500;
 }
 
 .info{
-    width:;
+    width:66%;
 }
 .cornice{
    width: calc(100% / 3);
