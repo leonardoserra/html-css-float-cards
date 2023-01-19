@@ -54,7 +54,7 @@ header p{
 .scheda a{
     color:aqua;
 }
-.scheda a:hover, footer a::after{
+.scheda a:hover, footer a:hover{
     color:red;
 }
 
