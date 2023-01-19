@@ -14,9 +14,9 @@ body {
     margin:auto;
 }
 
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 header{
     text-align: center;
@@ -54,8 +54,12 @@ header p{
 .scheda a{
     color:aqua;
 }
-.scheda a:hover{
+.scheda a:hover, footer a::after{
     color:red;
+}
+
+footer a{
+    color:green;
 }
 
 
@@ -82,4 +86,8 @@ header p{
 
 .col, .scheda, .info, .profilePic, .cornice{
     float: left;
+}
+
+footer{
+    text-align: center;
 }
