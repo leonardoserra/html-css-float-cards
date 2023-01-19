@@ -27,11 +27,13 @@ header h1{
 
 /* creo regola di clearfix */
 .clearfix::after{
-    content: '';
+    content:'';
     clear: both;
     display: table;
 }
-
+.columns{
+    max-width: 100%;
+}
 .col{
     width: calc(100% / 3);
 }
@@ -43,6 +45,7 @@ header h1{
     margin: 25px 30px;
 }
 
+/* coloro i link  */
 .scheda a{
     color:aqua;
 }
@@ -53,17 +56,25 @@ header h1{
 
 
 .nomeCognome{
-    font-weight: 900;
+    font-weight: 500;
 }
 
-.profilePic, .info {
-    width: calc(100% / 3);
+.info{
+    width:;
 }
+.cornice{
+   width: calc(100% / 3);
+}
+.profilePic {
+   width: 100%;
+}
+
 
 .nomeCognome, .professione, .contact{
     padding: 10px;
+    width: 100%;
 }
 
-.col, .scheda, .info, .profilePic{
+.col, .scheda, .info, .profilePic, .cornice{
     float: left;
 }
