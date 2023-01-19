@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     max-width: 80%;
     margin:auto;
 }
@@ -63,7 +63,7 @@ footer a{
 
 
 .nomeCognome{
-    font-weight: 500;
+    font-weight: 800;
 }
 
 /* con questa width la info non va piu sotto la foto */
