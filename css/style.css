@@ -42,4 +42,17 @@ header h1{
 .scheda{
     width: 100%;
     float:left;
+    background-color: black;
+    color: white;
+}
+
+.scheda a{
+    color:aqua;
+}
+.scheda a:hover{
+    color:red;
+}
+
+.nomeCognome{
+    display: inline-block;
 }
