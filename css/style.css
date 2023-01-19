@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    width: 80%;
+    max-width: 80%;
     margin:auto;
 }
 
@@ -37,9 +37,10 @@ header h1{
 }
 
 .scheda{
-    width: 100%;
+    width: calc(100% -60px);
     background-color: black;
     color: white;
+    margin: 25px 30px;
 }
 
 .scheda a{
@@ -52,17 +53,17 @@ header h1{
 
 
 .nomeCognome{
-    display: inline-block;
     font-weight: 900;
 }
 
-.profilePic {
+.profilePic, .info {
     width: calc(100% / 3);
 }
 
-.info{
-
+.nomeCognome, .professione, .contact{
+    padding: 10px;
 }
+
 .col, .scheda, .info, .profilePic{
     float: left;
 }
