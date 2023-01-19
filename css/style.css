@@ -32,3 +32,14 @@ header h1{
     clear: both;
     display:table;
 }
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.scheda{
+    width: 100%;
+    float:left;
+}
