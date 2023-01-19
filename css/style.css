@@ -27,9 +27,9 @@ header h1{
 
 /* creo regola di clearfix */
 .clearfix::after{
-    content:'';
+    content: '';
     clear: both;
-    display:table;
+    display: table;
 }
 
 .col{
@@ -58,6 +58,10 @@ header h1{
 
 .profilePic {
     width: calc(100% / 3);
+}
+
+.info{
+
 }
 .col, .scheda, .info, .profilePic{
     float: left;
