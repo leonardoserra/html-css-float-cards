@@ -7,16 +7,28 @@
 
 /* regole debug */
 
-.debug {
-    width: 80%;
-    border: 1px solid red;
-
-}
 
 body {
-    font-family: 'Noto Sans', sans-serif;;
+    font-family: 'Noto Sans', sans-serif;
+    width: 80%;
+    margin:auto;
+}
+
+.debug {
+    height: 150px;
+    border: 1px solid red;
 }
 
 header{
+    text-align: center;
+}
+header h1{
     color:rgb(229, 49, 112);
+}
+
+/* creo regola di clearfix */
+.clearfix::after{
+    content:'';
+    clear: both;
+    display:table;
 }
