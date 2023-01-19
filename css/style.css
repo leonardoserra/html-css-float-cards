@@ -15,7 +15,6 @@ body {
 }
 
 .debug {
-    height: 150px;
     border: 1px solid red;
 }
 
@@ -34,14 +33,11 @@ header h1{
 }
 
 .col{
-    float: left;
     width: calc(100% / 3);
-    padding: 10px;
 }
 
 .scheda{
     width: 100%;
-    float:left;
     background-color: black;
     color: white;
 }
@@ -53,6 +49,16 @@ header h1{
     color:red;
 }
 
+.foto{
+    width: 100%;
+}
 .nomeCognome{
     display: inline-block;
+}
+
+.profilePic{
+    height: 100%;
+}
+.col, .scheda, .info, .profilePic{
+    float: left;
 }
