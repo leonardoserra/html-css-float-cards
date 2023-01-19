@@ -13,9 +13,9 @@ body {
 }
 
 /* attivala o disattivala per vedere i bordi */
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 header{
     text-align: center;
@@ -40,13 +40,13 @@ header p{
 }
 .col{
     width: calc(100% / 3);
+    padding: 25px 30px;
 }
 
 .scheda{
-    width: calc(100% -60px);
+    width: 100%;
     background-color: black;
     color: white;
-    margin: 25px 30px;
 }
 
 /* coloro i link  */
