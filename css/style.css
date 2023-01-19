@@ -63,6 +63,7 @@ header p{
     font-weight: 500;
 }
 
+/* con questa width la info non va piu sotto la foto */
 .info{
     width:66%;
 }
