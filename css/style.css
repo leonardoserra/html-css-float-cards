@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 
-/* regole debug */
-
 
 body {
     font-family: 'Noto Sans', sans-serif;
@@ -14,9 +12,10 @@ body {
     margin:auto;
 }
 
-/* .debug {
+/* attivala o disattivala per vedere i bordi */
+.debug {
     border: 1px solid red;
-} */
+}
 
 header{
     text-align: center;
