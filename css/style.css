@@ -1,0 +1,18 @@
+/* reset rules  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole debug */
+
+.debug{
+    width: 80%;
+    border: 1px solid red;
+
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;;
+}
