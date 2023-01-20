@@ -51,7 +51,7 @@ header p{
     padding: 30px 20px;
 }
 
-.scheda{
+.card{
     width: 100%;
     background-color: black;
     color: white;
@@ -59,10 +59,10 @@ header p{
 }
 
 /* coloro i link  */
-.scheda a{
+.card a{
     color:aqua;
 }
-.scheda a:hover, footer a:hover{
+.card a:hover, footer a:hover{
     color:red;
 }
 
@@ -96,7 +96,7 @@ footer a{
 .info{
     float:right;
 }
-.col, .scheda, .profilePic, .cornice{
+.col, .card, .profilePic, .cornice{
     float: left;
 }
 
