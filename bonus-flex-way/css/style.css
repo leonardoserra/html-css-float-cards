@@ -1,0 +1,56 @@
+/* reset rules  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin:auto;
+}
+
+/* attivala o disattivala per vedere i bordi */
+.debug {
+    border: 1px solid red;
+}
+
+header{
+    text-align: center;
+}
+
+#title{
+    font-size:50px;
+    padding: 20px 0px;
+    color:rgb(229, 49, 112);
+}
+
+header p{
+    padding-bottom:20px;
+    font-weight:300;
+    color: rgb(28, 28, 28);
+}
+
+
+
+/* coloro i link  */
+a {
+    text-decoration: none;
+}
+.card a{
+    color:aqua;
+}
+.card a:hover, footer a:hover{
+    color:red;
+}
+
+footer a{
+    color:green;
+}
+
+
+footer{
+    text-align: center;
+}
