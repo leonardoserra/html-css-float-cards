@@ -13,9 +13,9 @@ body {
 }
 
 /* attivala o disattivala per vedere i bordi */
-/* .debug {
+.debug {
     border: 1px solid red;
-} */
+}
 
 header{
     text-align: center;
@@ -28,12 +28,13 @@ header{
 
 header p{
     padding-bottom:20px;
+    font-weight:300;
     color: rgb(28, 28, 28);
 }
 
 /* creo regola di clearfix */
 .clearfix::after{
-    content:'';
+    content: '';
     clear: both;
     display: table;
 }
@@ -91,7 +92,11 @@ footer a{
     width: 100%;
 }
 
-.col, .scheda, .info, .profilePic, .cornice{
+/* floats */
+.info{
+    float:right;
+}
+.col, .scheda, .profilePic, .cornice{
     float: left;
 }
 
