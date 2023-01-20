@@ -12,8 +12,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    width: 80%;
-    margin:auto;
+    /* min-width: 85%;
+    margin:auto; */
 }
 
 
@@ -34,18 +34,38 @@ header p{
 }
 
 /*creo le flexboxes*/
-
-.container{
+.container, .card, .info{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    /* flex-basis: calc(100% / 3); */
 }
 
+.container{
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 20px;
+}
+.card > img{
+   flex-basis: calc(100% / 3);
+}
+
+.card > .info{
+    flex-basis: calc(100% / 3 * 2);}
+
+.info{
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 15px;
+
+}
 
 /* coloro i link  */
 a {
     text-decoration: none;
+    display: block;
 }
 .card a{
     color:aqua;
