@@ -27,7 +27,8 @@ header{
 }
 
 header p{
-    padding-bottom:20px ;
+    padding-bottom:20px;
+    color: rgb(28, 28, 28);
 }
 
 /* creo regola di clearfix */
@@ -35,6 +36,11 @@ header p{
     content:'';
     clear: both;
     display: table;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
 }
 .columns{
     min-width: 100%;
@@ -48,7 +54,7 @@ header p{
     width: 100%;
     background-color: black;
     color: white;
-    box-shadow: 12px 14px 6px -6px #000000;
+    box-shadow: 12px 10px 10px 12px #616161;
 }
 
 /* coloro i link  */
