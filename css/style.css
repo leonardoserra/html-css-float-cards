@@ -13,9 +13,9 @@ body {
 }
 
 /* attivala o disattivala per vedere i bordi */
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 header{
     text-align: center;
