@@ -59,6 +59,9 @@ header p{
 }
 
 /* coloro i link  */
+a {
+    text-decoration: none;
+}
 .card a{
     color:aqua;
 }
