@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    max-width: 80%;
+    width: 80%;
     margin:auto;
 }
 
@@ -37,7 +37,7 @@ header p{
     display: table;
 }
 .columns{
-    max-width: 100%;
+    min-width: 100%;
 }
 .col{
     width: calc(100% / 3);
@@ -48,6 +48,7 @@ header p{
     width: 100%;
     background-color: black;
     color: white;
+    box-shadow: 12px 14px 6px -6px #000000;
 }
 
 /* coloro i link  */
