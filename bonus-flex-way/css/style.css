@@ -6,14 +6,14 @@
 }
 
 /* attivala o disattivala per vedere i bordi */
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 body {
-    font-family: 'Poppins', sans-serif;
-    /* min-width: 85%;
-    margin:auto; */
+    font-family: 'Fredoka', sans-serif;
+    width: 85%;
+    margin:auto;
 }
 
 
@@ -44,14 +44,15 @@ header p{
 }
 
 .card{
+    width: calc(100% / 3);
     padding: 20px;
 }
 .card > img{
-   flex-basis: calc(100% / 3);
+    width: calc(100% / 3);
 }
 
 .card > .info{
-    flex-basis: calc(100% / 3 * 2);}
+    width: calc(100% / 3 * 2);}
 
 .info{
     flex-direction: column;
@@ -62,10 +63,9 @@ header p{
 
 }
 
-/* coloro i link  */
+/* rules per i link  */
 a {
     text-decoration: none;
-    display: block;
 }
 .card a{
     color:aqua;
