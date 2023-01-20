@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+/* attivala o disattivala per vedere i bordi */
+.debug {
+    border: 1px solid red;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -12,10 +16,6 @@ body {
     margin:auto;
 }
 
-/* attivala o disattivala per vedere i bordi */
-.debug {
-    border: 1px solid red;
-}
 
 header{
     text-align: center;
@@ -33,6 +33,14 @@ header p{
     color: rgb(28, 28, 28);
 }
 
+/*creo le flexboxes*/
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* flex-basis: calc(100% / 3); */
+}
 
 
 /* coloro i link  */
